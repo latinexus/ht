@@ -55,14 +55,11 @@ class Ht
             if (!isset($blk["id"])) {
                 $blk["id"] = 'id = "id_' . self::$autoId++ . '"';
             }
-
             $optRetorno = implode(" ", $blk);
         } else {
             $optRetorno = "";
         }
-
         return $optRetorno;
     }
-
 }
 
