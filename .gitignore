@@ -1,0 +1,7 @@
+_notes
+*/_notes
+.idea
+vendor
+composer.phar
+composer.lock
+
